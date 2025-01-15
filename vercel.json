@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "ChatApp",
+  "name": "Wallet_App",
   "builds": [{ "src": "index.js", "use": "@vercel/node" }],
   "routes": [
     { "src": "/api/(.*)", "dest": "index.js" },
